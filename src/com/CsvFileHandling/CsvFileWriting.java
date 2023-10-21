@@ -8,7 +8,7 @@ public class CsvFileWriting {
     static private void writingCSV() throws IOException{
         String csvFilePath=".//Data//exam.csv";
         FileWriter fileWriter = new FileWriter(csvFilePath);
-        fileWriter.append("ID,Name,Department,Designation,Salary,Age,/n");
+        fileWriter.append("ID,Name,Department,Designation,Salary,Age,\n");
         fileWriter.append("20,Shubham,QA,Test Engineering,27,");
 
         fileWriter.close();
